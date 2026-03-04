@@ -1,0 +1,30 @@
+.
+├── backend
+│   ├── check-users.js
+│   ├── create-test-data.js
+│   ├── middleware
+│   │   └── auth.js
+│   ├── models
+│   │   ├── Cost.js
+│   │   ├── Payment.js
+│   │   ├── Service.js
+│   │   └── User.js
+│   ├── package-lock.json
+│   ├── package.json
+│   ├── routes
+│   │   ├── auth.js
+│   │   ├── costs.js
+│   │   ├── payments.js
+│   │   ├── services.js
+│   │   └── users.js
+│   ├── seed-users.js
+│   ├── server.js
+│   └── test.http
+├── backend@1.0.0
+├── docs
+├── estrutura-backend.txt
+├── nodemon
+├── package-lock.json
+└── package.json
+
+6 directories, 22 files
