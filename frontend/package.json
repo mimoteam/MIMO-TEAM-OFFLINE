@@ -1,0 +1,47 @@
+{
+  "name": "frontend",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "dev:local": "npm run use:api-local && vite",
+    "dev:prodapi": "npm run use:api-prod && vite",
+
+    "build": "vite build",
+    "build:local": "npm run use:api-local && vite build",
+    "build:prodapi": "npm run use:api-prod && vite build",
+
+    "preview": "vite preview",
+    "preview:local": "npm run build:local && vite preview --port 5174 --strictPort",
+    "preview:prodapi": "npm run build:prodapi && vite preview --port 5174 --strictPort",
+
+    "lint": "eslint .",
+
+    "use:api-local": "node -e \"require('fs').writeFileSync('.env.local','VITE_API_URL=http://localhost:4000\\n')\"",
+    "use:api-prod": "node -e \"require('fs').writeFileSync('.env.local','VITE_API_URL=https://mimoteam-backend.onrender.com\\n')\"",
+    "print:api": "node -e \"try{console.log(require('fs').readFileSync('.env.local','utf8').trim())}catch(e){console.log('sem .env.local')}\""
+  },
+  "dependencies": {
+    "axios": "^1.11.0",
+    "lucide-react": "^0.542.0",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "react-router-dom": "^7.8.0",
+    "recharts": "^3.1.2"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.32.0",
+    "@types/react": "^19.1.9",
+    "@types/react-dom": "^19.1.7",
+    "@vitejs/plugin-react": "^4.7.0",
+    "eslint": "^9.32.0",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "eslint-plugin-react-refresh": "^0.4.20",
+    "globals": "^16.3.0",
+    "vite": "^7.1.0"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

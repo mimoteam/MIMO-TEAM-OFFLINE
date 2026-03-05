@@ -1,0 +1,112 @@
+
+> mimoteam-backend@1.0.0 dev
+> ts-node-dev --respawn --transpile-only src/server.ts
+
+[INFO] 01:44:16 ts-node-dev ver. 2.0.0 (using ts-node ver. 10.9.2, typescript ver. 5.9.2)
+[INIT] NODE_ENV=development
+[INIT] CORS_ORIGIN=*
+[DB] Conectando ao Mongo...
+[DB] Conectado em 19ms
+[SEED] Created admin -> login=admin / password=admin123
+[SEED] ok
+[HTTP] Server running on http://localhost:4000
+[0mGET / [32m200[0m 1.957 ms - 38[0m
+[0mGET /favicon.ico [33m404[0m 0.698 ms - 21[0m
+[0mPOST /auth/login [33m401[0m 100.698 ms - 33[0m
+[0mPOST /auth/login [32m200[0m 101.415 ms - 585[0m
+[0mGET /costs?page=1&pageSize=1000 [32m200[0m 2.470 ms - 62[0m
+[0mGET /services?page=1&pageSize=200&limit=200&offset=0&sortBy=serviceDate&sortDir=desc [32m200[0m 11.736 ms - 61[0m
+[0mGET /costs?page=1&pageSize=1000 [36m304[0m 2.107 ms - -[0m
+[0mGET /services?page=1&pageSize=200&limit=200&offset=0&sortBy=serviceDate&sortDir=desc [36m304[0m 1.345 ms - -[0m
+[0mGET /payments?page=1&pageSize=200 [32m200[0m 2.618 ms - 61[0m
+[0mGET /payments?page=1&pageSize=200 [36m304[0m 1.307 ms - -[0m
+[0mGET /users?role=partner&status=active&page=1&pageSize=500 [32m200[0m 2.719 ms - 61[0m
+[0mGET /users?role=partner&status=active&page=1&pageSize=500 [36m304[0m 1.223 ms - -[0m
+[0mGET /costs?pageSize=500 [32m200[0m 0.949 ms - 61[0m
+[0mGET /costs?pageSize=500 [36m304[0m 0.710 ms - -[0m
+[0mGET /users?role=partner&status=active&page=1&pageSize=1000 [32m200[0m 3.045 ms - 62[0m
+[0mGET /users?role=partner&status=active&page=1&pageSize=1000 [36m304[0m 2.533 ms - -[0m
+[0mGET /users?role=partner&status=active&pageSize=1000 [32m200[0m 3.294 ms - 62[0m
+[0mGET /services?limit=500 [32m200[0m 3.243 ms - 60[0m
+[0mGET /users?role=partner&status=active&pageSize=1000 [36m304[0m 2.687 ms - -[0m
+[0mGET /services?limit=500 [36m304[0m 2.054 ms - -[0m
+[0mGET /services?limit=500 [36m304[0m 2.201 ms - -[0m
+[0mGET /services?limit=500 [36m304[0m 1.275 ms - -[0m
+[0mGET /payments?pageSize=500 [32m200[0m 1.583 ms - 61[0m
+[0mGET /payments?pageSize=500 [36m304[0m 1.710 ms - -[0m
+[0mGET /users?role=partner&status=active&page=1&pageSize=500 [36m304[0m 3.078 ms - -[0m
+[0mGET /users?role=partner&status=active&page=1&pageSize=500 [36m304[0m 2.035 ms - -[0m
+[0mGET /users?page=1&pageSize=10 [32m200[0m 3.631 ms - 366[0m
+[0mGET /users?page=1&pageSize=10 [36m304[0m 2.258 ms - -[0m
+[0mGET /auth/me [32m200[0m 33.273 ms - 339[0m
+[0mGET /auth/me [36m304[0m 49.153 ms - -[0m
+[0mGET /services?page=1&pageSize=200&limit=200&offset=0&sortBy=serviceDate&sortDir=desc [36m304[0m 53.208 ms - -[0m
+[0mGET /costs?page=1&pageSize=1000 [36m304[0m 54.988 ms - -[0m
+[0mGET /services?page=1&pageSize=200&limit=200&offset=0&sortBy=serviceDate&sortDir=desc [36m304[0m 43.949 ms - -[0m
+[0mGET /costs?page=1&pageSize=1000 [36m304[0m 37.948 ms - -[0m
+[0mGET /payments?page=1&pageSize=200 [36m304[0m 37.757 ms - -[0m
+[0mGET /payments?page=1&pageSize=200 [36m304[0m 44.337 ms - -[0m
+[0mGET /users?role=partner&status=active&page=1&pageSize=500 [36m304[0m 29.009 ms - -[0m
+[0mGET /users?role=partner&status=active&page=1&pageSize=500 [36m304[0m 3.477 ms - -[0m
+[0mGET /costs?pageSize=500 [36m304[0m 1.646 ms - -[0m
+[0mGET /costs?pageSize=500 [36m304[0m 1.124 ms - -[0m
+[DB] Desconectado
+[DB] Re-conectado
+[DB] Desconectado
+[DB] Re-conectado
+[DB] Desconectado
+[DB] Re-conectado
+[DB] Desconectado
+[DB] Re-conectado
+[DB] Desconectado
+[DB] Re-conectado
+[DB] Desconectado
+[DB] Re-conectado
+[DB] Desconectado
+[DB] Re-conectado
+[DB] Desconectado
+[DB] Re-conectado
+[DB] Desconectado
+[DB] Re-conectado
+[DB] Desconectado
+[DB] Re-conectado
+[DB] Desconectado
+[DB] Re-conectado
+[DB] Desconectado
+[DB] Re-conectado
+[DB] Desconectado
+[DB] Re-conectado
+[DB] Desconectado
+[DB] Re-conectado
+[DB] Desconectado
+[DB] Re-conectado
+[DB] Desconectado
+[DB] Re-conectado
+[DB] Desconectado
+[DB] Re-conectado
+[DB] Desconectado
+[DB] Re-conectado
+[DB] Desconectado
+[DB] Re-conectado
+[DB] Desconectado
+[DB] Re-conectado
+[DB] Desconectado
+[DB] Re-conectado
+[DB] Desconectado
+[DB] Re-conectado
+[DB] Desconectado
+[DB] Re-conectado
+[DB] Desconectado
+[DB] Re-conectado
+[DB] Desconectado
+[DB] Re-conectado
+[DB] Desconectado
+[DB] Re-conectado
+[DB] Desconectado
+[DB] Re-conectado
+[DB] Desconectado
+[DB] Re-conectado
+[DB] Desconectado
+[DB] Re-conectado
+[DB] Desconectado
+[DB] Re-conectado
